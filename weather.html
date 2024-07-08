@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="weather.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="inner">
+        <div class="column">
+          <input
+            type="text"
+            placeholder="Enter the name of the city"
+            id="searchinp"
+          />
+          <button class="btn" id="searchbtn">Search</button><br /><br /><br />
+        </div>
+        <div class="column">
+          <p id="city"></p>
+          <p id="temp"></p>
+          <img
+            class="image"
+            id="weatherIcon"
+            src=""
+            alt="Weather Icon"
+            height="120"
+            ;
+            width="120"
+            ;
+          />
+          <p id="highlow"></p>
+
+          <p id="desc"></p>
+          <p id="wind"></p>
+        </div>
+      </div>
+    </div>
+    <script src="weather.js"></script>
+  </body>
+</html>

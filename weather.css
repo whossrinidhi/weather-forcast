@@ -1,0 +1,74 @@
+body {
+  background-color: rgb(116, 105, 182);
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 4em 2em 2em 2em;
+  background-color: rgb(225, 175, 209);
+  height: 40em;
+  border-radius: 2em;
+  width: 80%;
+}
+
+.container input {
+  border-style: solid;
+  border-color: rgb(116, 105, 182);
+  width: 15em;
+  height: 2em;
+  margin-right: 1em;
+  border-radius: 0.2em;
+}
+.inner {
+  background-color: rgb(255, 230, 230);
+  border-radius: 2em;
+  margin-top: 4em;
+  display: flex;
+  width: 80%;
+  height: 80%;
+}
+.btn {
+  background-color: rgb(116, 105, 182);
+  color: cornsilk;
+  border: 0;
+  height: 2em;
+  width: 6em;
+  border-radius: 0.2em;
+}
+
+.column {
+  flex: 50%;
+  margin-left: 2em;
+  margin-top: 2em;
+}
+.container input:hover {
+  border-style: solid;
+  border-color: rgb(225, 175, 209);
+}
+
+.btn:hover {
+  background-color: rgb(225, 175, 209);
+  color: black;
+}
+.column #city {
+  margin-left: 2em;
+  margin-top: 0;
+  font-size: 1.9em;
+  color: rgb(116, 105, 182);
+}
+.column #temp {
+  margin-left: 1.4em;
+  font-size: 3em;
+  color: rgb(116, 105, 182);
+}
+.column #weatherIcon {
+  margin-left: 4em;
+  display: none;
+}
+.column #desc,
+#wind,
+#highlow {
+  margin-left: 3.1em;
+}
